@@ -236,6 +236,46 @@ add:
 
 ---
 
+## 🎯 Quel langage choisir pour quelle tâche ?
+
+Il n'y a pas de « meilleur » langage dans l'absolu : il y a le **bon outil pour le bon
+travail**. Voici des repères concrets.
+
+| Ta tâche | Langage conseillé | Pourquoi |
+|----------|-------------------|----------|
+| Débuter la programmation | 🐍 **Python** | le plus lisible, parfait pour comprendre les concepts |
+| Automatiser fichiers / données, scraping, web, IA | 🐍 **Python** | simple + immense écosystème de bibliothèques |
+| Automatiser **Linux/macOS**, enchaîner des outils, traiter des logs | 🐚 **Bash** | natif sur Unix, roi des pipes et du texte |
+| Automatiser / administrer **Windows**, manipuler des objets système | 🟦 **PowerShell** | natif Windows, pipeline d'**objets** |
+| Serveurs réseau, outils en ligne de commande, conteneurs/cloud | 🐹 **Go** | compilé, rapide, concurrence simple, **un seul binaire** |
+| Logiciels exigeants en performance, jeux, moteurs, gros calculs | ➕ **C++** | vitesse du C + objets et STL |
+| Systèmes embarqués, OS, pilotes, contrôle fin de la mémoire | 🇨 **C** | proche du matériel, ultra-portable, minimal |
+| Comprendre/optimiser au plus bas niveau, reverse engineering | ⚙️ **Assembleur** | contrôle **total** du processeur |
+
+### Pour la sécurité informatique (pentest)
+
+La sécurité utilise **plusieurs** langages selon le besoin (voir les modules `pentest/` de
+chaque langage) :
+
+| Besoin en sécurité | Langage souvent privilégié |
+|--------------------|-----------------------------|
+| Scripts d'audit, prototypage rapide d'exploits, outils offensifs | 🐍 **Python** (le standard du domaine) |
+| Outils réseau rapides et portables (scanners, implants multiplateformes) | 🐹 **Go** |
+| Recon « glue » sur Unix, enchaîner nmap/curl/… | 🐚 **Bash** |
+| Post-exploitation et administration **Windows** / Active Directory | 🟦 **PowerShell** |
+| Exploitation mémoire (buffer overflow), shellcode, outils bas niveau | 🇨 **C** / ⚙️ **Assembleur** |
+
+> ⚖️ Ces compétences sont à usage **strictement éducatif et autorisé** : uniquement sur tes
+> propres systèmes, avec autorisation écrite, ou dans des labs/CTF (HackTheBox, TryHackMe…).
+
+### La règle simple
+
+> 🧭 **Tu débutes ?** Python. **Tu automatises Unix ?** Bash. **Tu automatises Windows ?**
+> PowerShell. **Tu veux de la performance ou un binaire à distribuer ?** Go, puis C++/C.
+> **Tu veux comprendre la machine ?** C, puis l'Assembleur.
+
+---
+
 ## 🧭 Conclusion
 
 Les **concepts** (variable, condition, boucle, fonction) sont **universels**. Quand tu en
