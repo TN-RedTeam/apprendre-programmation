@@ -82,8 +82,9 @@ go build go/00_demarrer/premier_programme.go   # crée le fichier "premier_progr
 | 2 | [`02_collections`](./02_collections/) | Slices (listes dynamiques, `append`, `range`), maps (dictionnaires), package `strings` |
 | 3 | [`03_structs_methodes`](./03_structs_methodes/) | Structs (regrouper des champs), méthodes, récepteur valeur vs pointeur `*T` |
 | 4 | [`04_erreurs_interfaces`](./04_erreurs_interfaces/) | Gestion des erreurs (`error`, `if err != nil`), interfaces (contrats de comportement) |
+| 5 | [`05_fichiers`](./05_fichiers/) | Lire & écrire des fichiers (`os.WriteFile`, `os.ReadFile`, `os.Open` + `bufio.Scanner`) |
 
-> 🚧 **Fondations.** D'autres modules (fichiers, petits projets…) viendront
+> 🚧 **Fondations.** D'autres modules (petits projets…) viendront
 > ensuite, dans le même style.
 
 > 📎 **Ressources** (à garder sous la main) : l'[AIDE_MEMOIRE.md](./AIDE_MEMOIRE.md)

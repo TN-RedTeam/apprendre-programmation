@@ -67,9 +67,10 @@ Autres différences avec Python (héritées du C) :
 | 2 | [`02_conteneurs_chaines`](./02_conteneurs_chaines/) | `std::string` (texte), `std::vector` (liste qui grandit), boucle range-for |
 | 3 | [`03_classes_objets`](./03_classes_objets/) | Programmation objet : classes & objets, attributs/méthodes, constructeur, `public`/`private` (encapsulation) |
 | 4 | [`04_heritage_polymorphisme`](./04_heritage_polymorphisme/) | Héritage (`: public`), méthodes `virtual`/`override`, polymorphisme via `Animal*` |
+| 5 | [`05_fichiers`](./05_fichiers/) | Lire/écrire des fichiers avec `<fstream>` : `std::ofstream`, `std::ifstream`, `std::getline`, `.is_open()`, fermeture automatique (RAII) |
 
-> 🚧 **Fondations** : ce parcours débute. D'autres modules (fichiers, projets…) viendront
-> ensuite, dans le même style.
+> 🚧 **Fondations** : ce parcours débute. D'autres modules (projets…) viendront ensuite,
+> dans le même style.
 
 ---
 
