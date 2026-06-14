@@ -68,6 +68,7 @@ Autres différences avec Python (héritées du C) :
 | 3 | [`03_classes_objets`](./03_classes_objets/) | Programmation objet : classes & objets, attributs/méthodes, constructeur, `public`/`private` (encapsulation) |
 | 4 | [`04_heritage_polymorphisme`](./04_heritage_polymorphisme/) | Héritage (`: public`), méthodes `virtual`/`override`, polymorphisme via `Animal*` |
 | 5 | [`05_fichiers`](./05_fichiers/) | Lire/écrire des fichiers avec `<fstream>` : `std::ofstream`, `std::ifstream`, `std::getline`, `.is_open()`, fermeture automatique (RAII) |
+| 6 | [`06_stl`](./06_stl/) | La STL : conteneurs `std::map` (dictionnaire clé→valeur) et `std::set` (sans doublons), algorithmes `std::sort`/`std::find`, itérateurs `begin()`/`end()` |
 
 > 🚧 **Fondations** : ce parcours débute. D'autres modules (projets…) viendront ensuite,
 > dans le même style.
