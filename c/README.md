@@ -54,7 +54,9 @@ Autres différences notables avec Python :
 > **mini-projets « capstone »** qui combinent plusieurs modules (tableaux + structures +
 > fichiers) pour construire de vrais petits outils. À faire une fois les bases acquises.
 
-> 📎 **Ressources** (à garder sous la main) : l'[`AIDE_MEMOIRE.md`](./AIDE_MEMOIRE.md)
+> 📎 **Ressources** (à garder sous la main) : le guide
+> [`ANATOMIE_D_UN_PROGRAMME.md`](./ANATOMIE_D_UN_PROGRAMME.md) (dans quel ordre écrire son
+> code : `#include`, prototypes, `main()`…), l'[`AIDE_MEMOIRE.md`](./AIDE_MEMOIRE.md)
 > (cheat-sheet d'une page) et le [`GLOSSAIRE.md`](./GLOSSAIRE.md) (les mots du C expliqués).
 
 ---
