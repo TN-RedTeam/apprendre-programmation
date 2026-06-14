@@ -89,6 +89,10 @@ go build go/00_demarrer/premier_programme.go   # crée le fichier "premier_progr
 > 🚧 **Fondations.** D'autres modules (petits projets…) viendront
 > ensuite, dans le même style.
 
+> 🛠️ **Prêt à assembler ?** Une fois les fondations digérées, passe au dossier
+> [`projets/`](./projets/) : des mini-projets **capstone** qui COMBINENT plusieurs
+> modules (structs + slices + fichiers + erreurs) pour fabriquer de vrais petits outils.
+
 > 📎 **Ressources** (à garder sous la main) : l'[AIDE_MEMOIRE.md](./AIDE_MEMOIRE.md)
 > (cheat-sheet de syntaxe) et le [GLOSSAIRE.md](./GLOSSAIRE.md) (le sens des mots du Go).
 
