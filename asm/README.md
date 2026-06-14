@@ -121,9 +121,10 @@ as asm/00_demarrer/hello.s -o /tmp/p.o && ld /tmp/p.o -o /tmp/p && /tmp/p ; echo
 | 3 | [`03_memoire_donnees`](./03_memoire_donnees/) | Sections `.data`/`.bss`, déclarer des données (`.byte`/`.word`/`.quad`/`.ascii`), adressage `[ ]` et `lea`, parcourir un tableau |
 | 4 | [`04_entrees_sorties`](./04_entrees_sorties/) | Syscalls `read`/`write`, afficher un nombre (conversion par divisions), écho clavier |
 | 5 | [`05_chaines`](./05_chaines/) | Chaînes = suites d'octets ASCII, parcours avec un pointeur (`inc`), fin par octet 0 ou longueur connue, mise en MAJUSCULES (−32) |
+| 6 | [`06_interfacage_c`](./06_interfacage_c/) | Écrire une FONCTION asm appelée depuis le C, convention System V AMD64 (`rdi`/`rsi` → `rax`), `.global` sans `_start`, lier avec `gcc main.c somme.s -o prog` |
 
 > 🚧 **Fondations** : ce parcours pose les bases. D'autres modules (calculs avancés,
-> appels de fonctions C…) viendront ensuite, dans le même style.
+> autres conventions d'appel…) viendront ensuite, dans le même style.
 
 ## 📎 Ressources
 
