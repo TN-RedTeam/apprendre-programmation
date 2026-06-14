@@ -84,6 +84,7 @@ fichiers) pour construire un vrai petit outil — comme un gestionnaire de tâch
 
 ## 📎 Ressources
 
+- [`ANATOMIE_D_UN_PROGRAMME.md`](./ANATOMIE_D_UN_PROGRAMME.md) — dans quel ordre écrire son code (squelette d'un programme C++).
 - [`AIDE_MEMOIRE.md`](./AIDE_MEMOIRE.md) — la syntaxe C++ essentielle en une page.
 - [`GLOSSAIRE.md`](./GLOSSAIRE.md) — les mots du C++ expliqués simplement.
 
