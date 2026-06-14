@@ -32,6 +32,14 @@ une énorme bibliothèque d'outils tout prêts.
 | [06_bibliotheques](./06_bibliotheques/) | Stdlib vs tierces, pip, requirements | Explorer les modules installés |
 | [07_debugger](./07_debugger/) | Lire un traceback, erreurs fréquentes, try/except | Démo des erreurs courantes |
 
+### 🎓 Modules avancés
+
+À aborder une fois les bases bien digérées :
+
+| Module | Théorie principale | Scripts |
+|--------|--------------------|--------------------|
+| [08_poo](./08_poo/) | Programmation Orientée Objet : classes, objets, `__init__`, `self`, attributs, méthodes, héritage, `super()`, `__str__`, encapsulation | `classes.py`, `heritage.py` |
+
 Puis, pour mettre tout en pratique : les **[mini-projets concrets](./projets/)** qui
 combinent plusieurs modules (organiser des fichiers, carnet de contacts, suivi météo).
 
