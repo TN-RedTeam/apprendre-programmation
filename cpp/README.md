@@ -74,6 +74,12 @@ Autres différences avec Python (héritées du C) :
 > 🚧 **Fondations** : ce parcours débute. D'autres modules (projets…) viendront ensuite,
 > dans le même style.
 
+### 🛠️ Et pour mettre tout ça en pratique : [`projets/`](./projets/)
+
+Une fois les fondations en place, le dossier [`projets/`](./projets/) propose des
+mini-projets **« capstone »** qui **combinent plusieurs modules** (classes + `std::vector` +
+fichiers) pour construire un vrai petit outil — comme un gestionnaire de tâches.
+
 ---
 
 ## 📎 Ressources
