@@ -47,6 +47,7 @@ Autres différences notables avec Python :
 | 3 | [`03_pointeurs_memoire`](./03_pointeurs_memoire/) | Pointeurs (`&`, `*`, `NULL`), modifier via une fonction, mémoire dynamique (`malloc`/`free`) |
 | 4 | [`04_structures`](./04_structures/) | Structures (`struct`, `typedef`), champ `.` et flèche `->`, tableaux de structures |
 | 5 | [`05_fichiers`](./05_fichiers/) | Fichiers : `fopen` (modes `"w"`/`"a"`/`"r"`), vérifier `NULL`, écrire (`fprintf`/`fputs`), lire (`fgets`), `fclose` |
+| 6 | [`06_preprocesseur_modules`](./06_preprocesseur_modules/) | Préprocesseur (`#define`, `#include` `<>` vs `""`), séparer en `.h`/`.c`, garde d'inclusion, compiler plusieurs fichiers ensemble |
 
 > 🚧 D'autres modules (projets…)
 > viendront ensuite, dans le même style.
