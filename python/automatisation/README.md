@@ -39,6 +39,7 @@ une énorme bibliothèque d'outils tout prêts.
 | Module | Théorie principale | Scripts |
 |--------|--------------------|--------------------|
 | [08_poo](./08_poo/) | Programmation Orientée Objet : classes, objets, `__init__`, `self`, attributs, méthodes, héritage, `super()`, `__str__`, encapsulation | `classes.py`, `heritage.py` |
+| [09_concurrence](./09_concurrence/) | Faire plusieurs choses « en même temps » : tâches d'attente vs calcul, le GIL, `ThreadPoolExecutor`, `asyncio` (`async`/`await`) | `threads.py`, `async_demo.py` |
 
 Puis, pour mettre tout en pratique : les **[mini-projets concrets](./projets/)** qui
 combinent plusieurs modules (organiser des fichiers, carnet de contacts, suivi météo).
