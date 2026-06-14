@@ -57,6 +57,7 @@ Autres différences notables avec Python :
 | Étape | Module | Ce que tu apprends |
 |-------|--------|--------------------|
 | 8 | [`08_threads`](./08_threads/) | Programmation concurrente avec les **threads POSIX** (pthreads) : faire plusieurs choses en parallèle, lancer un thread (`pthread_create`) et l'attendre (`pthread_join`), le danger de la **course aux données**, et le **mutex** (`pthread_mutex_lock`/`unlock`) pour protéger une donnée partagée. Compilation avec `-pthread`. |
+| 9 | [`09_pointeurs_fonctions`](./09_pointeurs_fonctions/) | **Pointeurs de fonctions & callbacks** : une fonction a une **adresse**, donc on peut la ranger dans un pointeur (`int (*op)(int, int)`) et l'appeler plus tard, en faire un **tableau** parcouru en boucle, ou la passer **en argument** à une autre fonction (un **callback** : « voici quoi faire quand… »). Cas réel : la fonction de comparaison de `qsort`. |
 
 > 🎯 **Et après les fondations ?** Le dossier [`projets/`](./projets/) rassemble des
 > **mini-projets « capstone »** qui combinent plusieurs modules (tableaux + structures +
