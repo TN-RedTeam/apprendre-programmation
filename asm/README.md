@@ -118,6 +118,7 @@ as asm/00_demarrer/hello.s -o /tmp/p.o && ld /tmp/p.o -o /tmp/p && /tmp/p ; echo
 | 0 | [`00_demarrer`](./00_demarrer/) | Squelette d'un programme, sections, afficher via `write`, quitter via `exit` |
 | 1 | [`01_les_bases`](./01_les_bases/) | Registres, `mov`, `add`/`sub`, `cmp`, sauts (`jmp`/`jl`/`jne`), labels, code de sortie |
 | 2 | [`02_pile_fonctions`](./02_pile_fonctions/) | La pile (`push`/`pop`, `rsp`), fonctions/sous-programmes (`call`/`ret`), passer un argument et récupérer un résultat |
+| 3 | [`03_memoire_donnees`](./03_memoire_donnees/) | Sections `.data`/`.bss`, déclarer des données (`.byte`/`.word`/`.quad`/`.ascii`), adressage `[ ]` et `lea`, parcourir un tableau |
 
 > 🚧 **Fondations** : ce parcours pose les bases. D'autres modules (chaînes de caractères,
 > affichage de nombres…) viendront ensuite, dans le même style.
