@@ -82,6 +82,7 @@ Une fois les fondations digérées, ces modules vont plus loin — toujours dans
 | Module | Ce que tu apprends |
 |--------|--------------------|
 | [`08_templates`](./08_templates/) | Les **templates** (généricité) : écrire du code qui marche pour plusieurs types. `template<typename T>`, fonction générique (`maximum<T>`), classe générique (`Boite<T>`). C'est ce qui se cache derrière les `< >` de la STL. |
+| [`09_smart_pointers`](./09_smart_pointers/) | Les **smart pointers** & le **RAII** : la gestion moderne et sûre de la mémoire. Le danger des `new`/`delete` oubliés (fuites mémoire), la libération **automatique** en fin de portée. `std::unique_ptr` (un seul propriétaire, `std::make_unique`) et `std::shared_ptr` (propriété partagée, compteur `use_count()`, `std::make_shared`). |
 
 ### 🛠️ Et pour mettre tout ça en pratique : [`projets/`](./projets/)
 

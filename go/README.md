@@ -93,6 +93,7 @@ Une fois les fondations solides, va plus loin :
 | Étape | Module | Ce que tu apprends |
 |-------|--------|--------------------|
 | 8 | [`08_generics`](./08_generics/) | Les génériques : écrire UNE fonction pour plusieurs types (`[T any]`), les contraintes (`any`, `comparable`, contrainte perso `~int \| ~float64`) |
+| 9 | [`09_concurrence_avancee`](./09_concurrence_avancee/) | Concurrence avancée : `select` (attendre plusieurs channels, timeout), pool de *workers* |
 
 > 💡 Comme pour les fondations : chaque fichier `.go` a son propre `package main` + `func main`
 > dans le même dossier, et se lance **séparément** avec `go run go/08_generics/<fichier>.go`.
