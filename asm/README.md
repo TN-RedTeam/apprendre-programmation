@@ -139,6 +139,7 @@ affichage de chaînes). C'est là qu'on relie enfin toutes les briques apprises.
 
 ## 📎 Ressources
 
+- [`ANATOMIE_D_UN_PROGRAMME.md`](./ANATOMIE_D_UN_PROGRAMME.md) — dans quel ordre écrire un programme : le squelette standard (sections, `_start`, exit), le cycle assembler/lier/lancer, et comment lire un programme asm.
 - [`AIDE_MEMOIRE.md`](./AIDE_MEMOIRE.md) — l'essentiel en une page (outils, registres, instructions, syscalls, squelette).
 - [`GLOSSAIRE.md`](./GLOSSAIRE.md) — les termes clés expliqués simplement.
 
