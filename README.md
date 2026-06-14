@@ -47,6 +47,9 @@ Ce qui change, c'est surtout :
 
 En les comparant, tu comprends mieux la programmation **en général**, pas juste un langage.
 
+👉 Vois **[COMPARATIF.md](./COMPARATIF.md)** : *la même chose écrite dans les 5 langages*
+(afficher du texte, une variable, une condition, une boucle, une fonction…).
+
 ---
 
 ## 📄 Licence
