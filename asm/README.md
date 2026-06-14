@@ -117,8 +117,14 @@ as asm/00_demarrer/hello.s -o /tmp/p.o && ld /tmp/p.o -o /tmp/p && /tmp/p ; echo
 |-------|--------|--------------------|
 | 0 | [`00_demarrer`](./00_demarrer/) | Squelette d'un programme, sections, afficher via `write`, quitter via `exit` |
 | 1 | [`01_les_bases`](./01_les_bases/) | Registres, `mov`, `add`/`sub`, `cmp`, sauts (`jmp`/`jl`/`jne`), labels, code de sortie |
+| 2 | [`02_pile_fonctions`](./02_pile_fonctions/) | La pile (`push`/`pop`, `rsp`), fonctions/sous-programmes (`call`/`ret`), passer un argument et récupérer un résultat |
 
-> 🚧 **Fondations** : ce parcours pose les bases. D'autres modules (mémoire & pile,
-> fonctions, chaînes de caractères…) viendront ensuite, dans le même style.
+> 🚧 **Fondations** : ce parcours pose les bases. D'autres modules (chaînes de caractères,
+> affichage de nombres…) viendront ensuite, dans le même style.
+
+## 📎 Ressources
+
+- [`AIDE_MEMOIRE.md`](./AIDE_MEMOIRE.md) — l'essentiel en une page (outils, registres, instructions, syscalls, squelette).
+- [`GLOSSAIRE.md`](./GLOSSAIRE.md) — les termes clés expliqués simplement.
 
 ➡️ Commence par le module [`00_demarrer`](./00_demarrer/).
