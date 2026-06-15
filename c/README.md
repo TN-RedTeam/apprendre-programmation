@@ -91,3 +91,9 @@ gcc c/00_demarrer/premier_programme.c -o programme
 ```
 
 ➡️ Commence par le module [`00_demarrer`](./00_demarrer/).
+
+## 🔐 Module sécurité (pentest)
+
+Pour découvrir le rôle de ce langage en **sécurité informatique** — à usage
+**strictement éducatif et autorisé** (tes propres systèmes, CTF, labs) — voir le
+dossier [`pentest/`](./pentest/).
