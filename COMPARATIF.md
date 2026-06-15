@@ -264,6 +264,7 @@ chaque langage) :
 | Recon « glue » sur Unix, enchaîner nmap/curl/… | 🐚 **Bash** |
 | Post-exploitation et administration **Windows** / Active Directory | 🟦 **PowerShell** |
 | Exploitation mémoire (buffer overflow), shellcode, outils bas niveau | 🇨 **C** / ⚙️ **Assembleur** |
+| Outils de sécurité performants, **reverse engineering**, analyse de malware, exploits navigateurs/jeux | ➕ **C++** |
 
 > ⚖️ Ces compétences sont à usage **strictement éducatif et autorisé** : uniquement sur tes
 > propres systèmes, avec autorisation écrite, ou dans des labs/CTF (HackTheBox, TryHackMe…).
