@@ -1,11 +1,11 @@
 # 🗺️ Sommaire & parcours d'apprentissage
 
-Ce dépôt enseigne **7 langages** avec la **même pédagogie**. Cette page sert de **point de
+Ce dépôt enseigne **10 langages** avec la **même pédagogie**. Cette page sert de **point de
 départ** : elle te dit *dans quel ordre* apprendre, et te donne tous les liens.
 
 > Tu hésites sur le langage à choisir selon ton objectif ? Lis d'abord le
-> **[COMPARATIF.md](./COMPARATIF.md)** (la même chose dans 7 langages + « quel langage pour
-> quelle tâche »).
+> **[COMPARATIF.md](./COMPARATIF.md)** (la même chose dans plusieurs langages + « quel langage
+> pour quelle tâche »).
 
 ---
 
@@ -23,6 +23,14 @@ technique — chaque étape réutilise des concepts de la précédente.
 | 5 | 🇨 **[C](./c/)** | Tu passes « sous le capot » : compilation, types, **pointeurs et mémoire** manuelle. |
 | 6 | ➕ **[C++](./cpp/)** | Le C + les objets et la **STL** : la performance avec des outils modernes. |
 | 7 | ⚙️ **[Assembleur](./asm/)** | Le plus bas niveau : tu vois **tout** ce que les autres langages cachent. |
+
+Et trois langages très demandés, à aborder quand tu veux :
+
+| Langage | Pourquoi l'apprendre |
+|---------|----------------------|
+| 🟨 **[JS / TS](./js-ts/)** | Le langage du **web** et de Node.js ; TypeScript y ajoute les types. |
+| ☕ **[Java](./java/)** | Très orienté objet, multiplateforme (JVM), incontournable en entreprise. |
+| 🦀 **[Rust](./rust/)** | Performance du C **+ sécurité mémoire** garantie à la compilation. |
 
 > 💡 Tu peux aussi suivre **un seul** langage de bout en bout selon ton besoin. Chaque parcours
 > est autonome.
@@ -43,7 +51,7 @@ Chaque parcours suit **exactement le même plan** (clique sur un langage pour le
 
 ---
 
-## 📚 Les 7 parcours en un coup d'œil
+## 📚 Les 10 parcours en un coup d'œil
 
 | Langage | Le cœur du parcours (modules 02→06/09) | Sécurité |
 |---------|-----------------------------------------|----------|
@@ -54,6 +62,9 @@ Chaque parcours suit **exactement le même plan** (clique sur un langage pour le
 | ➕ **[C++](./cpp/)** | conteneurs, **classes & objets**, héritage, fichiers, STL, templates | [pentest](./cpp/pentest/) |
 | 🐹 **[Go](./go/)** | slices/maps, structs, interfaces, fichiers, **concurrence** | [pentest](./go/pentest/) |
 | ⚙️ **[Assembleur](./asm/)** | pile & fonctions, mémoire, E/S, chaînes, interfaçage C, récursion | [pentest](./asm/pentest/) |
+| 🦀 **[Rust](./rust/)** | **propriété/ownership**, structs/enums, collections, erreurs, traits, concurrence | [pentest](./rust/pentest/) |
+| 🟨 **[JS / TS](./js-ts/)** | objets/tableaux, fonctions, **async/await**, TypeScript, classes, HTTP | [pentest](./js-ts/pentest/) |
+| ☕ **[Java](./java/)** | **POO**, héritage/interfaces, collections, exceptions, génériques, streams, threads | [pentest](./java/pentest/) |
 
 ---
 
