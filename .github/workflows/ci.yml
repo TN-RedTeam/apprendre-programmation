@@ -177,10 +177,12 @@ jobs:
         run: |
           set -e
           echo "::group::Java"
-          while IFS= read -r f; do
-            echo "javac $f"
-            javac -d /tmp/javabuild "$f"
-          done < <(find java -name '*.java')
+          # On compile par DOSSIER : un module peut contenir plusieurs classes liées
+          # (ex: le projet capstone = Tache.java + GestionnaireDeTaches.java).
+          for d in $(find java -name '*.java' -exec dirname {} \; | sort -u); do
+            echo "javac $d/*.java"
+            javac -d /tmp/javabuild "$d"/*.java
+          done
           echo "::endgroup::"
 
       - name: Tout est vert ✅

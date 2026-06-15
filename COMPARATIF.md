@@ -1,4 +1,4 @@
-# 🔬 La même chose dans 7 langages
+# 🔬 La même chose dans plusieurs langages
 
 Le meilleur moyen de comprendre la programmation **en général** (et pas juste un langage),
 c'est de voir **le même concept** écrit dans plusieurs langages. Tu remarqueras que les
@@ -21,6 +21,9 @@ c'est de voir **le même concept** écrit dans plusieurs langages. Tu remarquera
 | ➕ C++ | `g++ fichier.cpp -o prog && ./prog` |
 | 🇨 C | `gcc fichier.c -o prog && ./prog` |
 | ⚙️ Asm | `as fichier.s -o f.o && ld f.o -o prog && ./prog` |
+| 🦀 Rust | `rustc fichier.rs -o prog && ./prog` (compilé) |
+| 🟨 JS / TS | `node fichier.js` (interprété) · TS : `tsc fichier.ts` puis `node fichier.js` |
+| ☕ Java | `javac Fichier.java && java Fichier` (compilé en bytecode pour la JVM) |
 
 > 💡 **Python est interprété** : on lance le fichier directement. Les **4 autres sont
 > compilés** : il faut d'abord traduire le code source en programme exécutable.
@@ -251,6 +254,9 @@ travail**. Voici des repères concrets.
 | Logiciels exigeants en performance, jeux, moteurs, gros calculs | ➕ **C++** | vitesse du C + objets et STL |
 | Systèmes embarqués, OS, pilotes, contrôle fin de la mémoire | 🇨 **C** | proche du matériel, ultra-portable, minimal |
 | Comprendre/optimiser au plus bas niveau, reverse engineering | ⚙️ **Assembleur** | contrôle **total** du processeur |
+| Sites web, front-end, et back-end avec Node.js | 🟨 **JS / TS** | LE langage du web ; TypeScript ajoute la sûreté des types |
+| Applications d'entreprise, Android, gros systèmes multiplateformes | ☕ **Java** | robuste, très outillé, « écris une fois, exécute partout » (JVM) |
+| Performance **et** sûreté mémoire (systèmes, outils, WebAssembly) | 🦀 **Rust** | vitesse du C **sans** les bugs mémoire (vérifié à la compilation) |
 
 ### Pour la sécurité informatique (pentest)
 
