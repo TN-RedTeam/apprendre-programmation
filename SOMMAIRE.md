@@ -72,6 +72,6 @@ Chaque parcours suit **exactement le même plan** (clique sur un langage pour le
 
 - **[COMPARATIF.md](./COMPARATIF.md)** — le même code dans les 10 langages + guide de choix.
 - **[SECURITE.md](./SECURITE.md)** — index de toutes les démos pentest (éducatives), par thème.
-- **[Parcours Python complet](./python/automatisation/)** — le plus fourni (idéal pour débuter).
+- **[Parcours Python complet](./python/)** — le plus fourni (idéal pour débuter).
 
 Bon apprentissage ! 🚀
