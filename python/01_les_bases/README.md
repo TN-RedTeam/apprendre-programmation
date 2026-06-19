@@ -264,6 +264,10 @@ modulo, f-string. Relis-le jusqu'à comprendre **chaque** symbole.
 
 ## 🏁 Exercices
 
+> 🎯 **Entraînement guidé et auto-corrigé** : complète [`exercices.py`](./exercices.py) (tu
+> lances le fichier, il affiche ✅/❌ pour chaque fonction). Corrigé commenté dans
+> [`solutions.py`](./solutions.py) — à n'ouvrir qu'après avoir vraiment essayé.
+
 1. **Lis et lance** [`bases.py`](./bases.py), puis modifie les valeurs pour observer les
    changements (mets `vie = 10`, change le score…).
 2. **Table de multiplication** : écris une boucle qui affiche la table de 7 (de `7 x 1` à `7 x 10`).

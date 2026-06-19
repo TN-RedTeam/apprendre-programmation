@@ -160,6 +160,9 @@ except FileNotFoundError:
 
 ## 🏁 Exercices
 
+> 🎯 **Entraînement guidé et auto-corrigé** : complète [`exercices.py`](./exercices.py) (✅/❌ en
+> direct). Corrigé dans [`solutions.py`](./solutions.py).
+
 1. **Lis et lance** [`fichiers.py`](./fichiers.py) (création + lecture d'un fichier de log).
 2. **Provoque une erreur** volontairement (divise par zéro, ouvre un fichier inexistant) pour
    voir le `try/except` la capturer.

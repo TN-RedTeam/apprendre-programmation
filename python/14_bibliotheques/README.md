@@ -181,6 +181,9 @@ Si tu utilises un environnement virtuel, vérifie qu'il est **activé** avant d'
 
 ## ▶️ À toi de jouer
 
+> 🎯 **Exercices auto-corrigés** (vérifier qu'un module est installé) :
+> [`exercices.py`](./exercices.py) → [`solutions.py`](./solutions.py).
+
 ```bash
 python3 python/14_bibliotheques/explorer_modules.py
 ```

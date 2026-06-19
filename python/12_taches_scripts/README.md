@@ -123,6 +123,9 @@ logging.error("Le dossier source est introuvable")
 
 ## ▶️ À toi de jouer
 
+> 🎯 **Exercices auto-corrigés** (construire un parseur `argparse`) :
+> [`exercices.py`](./exercices.py) → [`solutions.py`](./solutions.py).
+
 ```bash
 # Affiche l'aide générée automatiquement par argparse :
 python3 python/12_taches_scripts/sauvegarde.py --help

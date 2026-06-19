@@ -119,6 +119,9 @@ prix = soup.find("p", class_="prix").text     # le <p class="prix">
 
 ## ▶️ À toi de jouer
 
+> 🎯 **Exercices auto-corrigés** (sans Internet : on traite une réponse JSON) :
+> [`exercices.py`](./exercices.py) → [`solutions.py`](./solutions.py).
+
 ```bash
 python3 python/11_web_apis/appeler_api.py
 python3 python/11_web_apis/scraping.py
