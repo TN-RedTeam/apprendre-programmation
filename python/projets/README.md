@@ -70,7 +70,42 @@ scripts les plus utiles du monde réel.
 - **Idées d'extension** : n'afficher que les lignes `ERROR` ; compter les erreurs **par heure** ;
   recevoir le chemin du `.log` en argument avec `argparse`.
 
-### 4. 🌤️ Suivi météo → CSV — [`suivi_meteo.py`](./suivi_meteo.py)
+### 4. 🔐 Générateur de mots de passe — [`generateur_mdp.py`](./generateur_mdp.py)
+
+Fabrique des mots de passe aléatoires solides, configurables (longueur, chiffres, symboles,
+nombre à générer).
+
+- **Ce que tu y apprends** : construire un alphabet de caractères (`string`), `argparse` avec des
+  **drapeaux** (`action="store_true"`), et **une vraie leçon de sécurité** : pourquoi on utilise
+  `secrets` (hasard imprévisible) et **jamais `random`** pour un mot de passe.
+- **Modules mobilisés** : 01/02 (texte & listes), 12 (argparse). Aucune dépendance.
+- **Lancer** :
+  ```bash
+  python3 python/projets/generateur_mdp.py --longueur 24 --symboles
+  python3 python/projets/generateur_mdp.py --longueur 12 --sans-chiffres --nombre 5
+  ```
+- **Idées d'extension** : garantir **au moins un** chiffre et un symbole ; estimer la « force »
+  du mot de passe ; copier directement dans le presse-papier.
+
+### 5. ✅ Liste de tâches (to-do) — [`todo.py`](./todo.py)
+
+Une to-do list persistante en ligne de commande : ajouter, lister, **marquer comme faite**,
+supprimer. Le grand frère du carnet de contacts, avec une notion d'**état**.
+
+- **Ce que tu y apprends** : modéliser une tâche (`{"texte": ..., "fait": ...}`), la persistance
+  JSON, les **sous-commandes** `argparse`, et la conversion **numéro humain (1, 2, 3) → index
+  (0, 1, 2)** avec vérification des bornes.
+- **Modules mobilisés** : 02 (collections), 04 (fichiers), 12 (argparse). Aucune dépendance.
+- **Lancer** :
+  ```bash
+  python3 python/projets/todo.py ajouter --texte "Réviser Python"
+  python3 python/projets/todo.py lister
+  python3 python/projets/todo.py terminer --numero 1
+  ```
+- **Idées d'extension** : une commande `nettoyer` qui supprime les tâches faites ; des
+  **priorités** ; n'afficher que les tâches non terminées.
+
+### 6. 🌤️ Suivi météo → CSV — [`suivi_meteo.py`](./suivi_meteo.py)
 
 Pour une liste de villes, interroge une **API météo gratuite** (Open-Meteo, sans inscription)
 et enregistre un **rapport CSV**.
@@ -96,9 +131,10 @@ automatise-la. Quelques idées de difficulté croissante :
 | Projet | Concepts clés | Difficulté |
 |--------|---------------|------------|
 | Renommer en masse des photos (`IMG_001.jpg`, …) | `pathlib`, boucles, f-strings | ⭐ |
-| Générateur de mots de passe | `random`, `string`, `argparse` | ⭐ |
+| Minuteur / chronomètre en terminal | `time`, boucles | ⭐ |
+| Convertisseur d'unités (°C↔°F, km↔miles) | fonctions, `argparse` | ⭐ |
 | Convertisseur de devises (via une API) | `requests`, JSON | ⭐⭐ |
-| To-do list persistante en ligne de commande | JSON, `argparse` sous-commandes | ⭐⭐ |
+| Quiz à choix multiples avec score | dictionnaires, `input`, boucles | ⭐⭐ |
 | Scraper de prix d'une page web | `requests`, `beautifulsoup4` | ⭐⭐⭐ |
 
 > 🧭 Coincé sur « par où commencer / quelle fonction utiliser » ? Relis
