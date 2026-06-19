@@ -58,6 +58,10 @@ appliqué** (automatisation) pour mettre les concepts en pratique.
 
 ## 🛠️ Pratiquer & sécurité
 
+- **🎯 Exercices auto-corrigés dans CHAQUE module** : un fichier `exercices.py` (des fonctions
+  à compléter, avec une **auto-correction** intégrée — tu lances, tu vois ✅/❌ en direct) et un
+  `solutions.py` commenté. C'est **le** moyen de passer de « je lis du code » à « j'écris du
+  code ». Commence par [`01_les_bases/exercices.py`](./01_les_bases/exercices.py).
 - **[15_construire_un_script/](./15_construire_un_script/)** : écrire un script de zéro en
   **raisonnant** (compter des fichiers, convertir JSON → SQL) — commenté pas à pas.
 - **[projets/](./projets/)** : mini-projets concrets (ranger des fichiers, carnet de contacts, suivi météo).

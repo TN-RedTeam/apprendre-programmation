@@ -125,6 +125,9 @@ L'idée du mini-projet `ranger_dossier.py` : regarder l'**extension** de chaque 
 
 ## ▶️ À toi de jouer
 
+> 🎯 **Exercices auto-corrigés** : complète [`exercices.py`](./exercices.py) (✅/❌ en direct),
+> corrigé dans [`solutions.py`](./solutions.py).
+
 ```bash
 python3 python/10_fichiers_dossiers/lire_ecrire.py
 python3 python/10_fichiers_dossiers/csv_json.py

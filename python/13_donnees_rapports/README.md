@@ -102,6 +102,9 @@ ca_par_produit.to_excel("rapport.xlsx")            # en Excel (nécessite openpy
 
 ## ▶️ À toi de jouer
 
+> 🎯 **Exercices auto-corrigés** (la logique d'un rapport, sans pandas) :
+> [`exercices.py`](./exercices.py) → [`solutions.py`](./solutions.py).
+
 ```bash
 python3 python/13_donnees_rapports/rapport_ventes.py
 ```
