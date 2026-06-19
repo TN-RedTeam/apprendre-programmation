@@ -210,6 +210,9 @@ set     { }   unique, non ordonné                     → dédoublonner, ensemb
 
 ## 🏁 Exercices
 
+> 🎯 **Entraînement guidé et auto-corrigé** : complète [`exercices.py`](./exercices.py) (✅/❌ en
+> direct). Corrigé dans [`solutions.py`](./solutions.py).
+
 1. **Lis et lance** [`collections_demo.py`](./collections_demo.py), puis modifie les valeurs.
 2. **Inventaire** : crée un dictionnaire `stock = {"pommes": 5, "poires": 0}`. Affiche chaque
    produit et sa quantité avec `.items()`, puis affiche uniquement ceux en rupture (quantité 0).

@@ -144,6 +144,9 @@ print(Voiture("Tesla"))                # "Voiture Tesla"  (au lieu du charabia)
 
 ## 🏁 Exercices
 
+> 🎯 **Entraînement guidé et auto-corrigé** : complète [`exercices.py`](./exercices.py) (✅/❌ en
+> direct). Corrigé dans [`solutions.py`](./solutions.py).
+
 1. **Lis et lance** [`poo.py`](./poo.py) : repère `__init__`, `self`, `super()`, l'override.
 2. **Ajoute une classe `Moto`** qui hérite de `Vehicule`, avec un attribut `cylindree` et sa
    propre version de `se_deplacer`.

@@ -199,6 +199,9 @@ print(aire_cercle(2))
 
 ## 🏁 Exercices
 
+> 🎯 **Entraînement guidé et auto-corrigé** : complète [`exercices.py`](./exercices.py) (✅/❌ en
+> direct). Corrigé dans [`solutions.py`](./solutions.py).
+
 1. **Lis et lance** [`fonctions.py`](./fonctions.py) (valeurs par défaut, `*args`).
 2. **Lis et lance** [`usage_module.py`](./usage_module.py) : il importe le module
    [`outils_math.py`](./outils_math.py). Repère les **deux** formes d'import.
